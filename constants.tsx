@@ -6,7 +6,7 @@ import { ServiceDetails, ServiceId } from './types';
 // ⚠️ IMPORTANTE: Reemplaza esta URL con el link directo de la imagen que acabas de subir.
 // Como soy una IA de texto, no puedo alojar el archivo, pero he preparado todo para que funcione
 // en cuanto pegues el link aquí abajo.
-export const BRAND_IMAGE_URL = "https://i.postimg.cc/nhzGXWzT/Whisk-b7198ad58bcd4589f634e539038d25e3dr.png"; 
+export const BRAND_IMAGE_URL = "https://i.postimg.cc/6QRxpR03/Whisk-d59077067cf3e668e8449ef6896a0d29dr.jpg"; 
 
 export const BACKGROUND_IMAGE_URL = BRAND_IMAGE_URL; 
 export const PROFILE_IMAGE_URL = "https://i.postimg.cc/RZW9gMFk/Imagen-de-Whats-App-2025-11-20-a-las-15-24-49-34b8c736.jpg";
@@ -16,28 +16,28 @@ export const PROFILE_IMAGE_URL = "https://i.postimg.cc/RZW9gMFk/Imagen-de-Whats-
 export const BACKGROUND_MUSIC_URL = "https://soundcloud.com/bandita-del-cerro/la-bandita-del-cerro"; 
 
 // --- TEXTS ---
-export const BRAND_NAME = "La Bandita";
-export const SLOGAN_TEXT = "Todos Somos La bandita! 🦧🦫🦊🦊🐇";
+export const BRAND_NAME = "GRAN PATAS NEGRAS";
+export const SLOGAN_TEXT = "Un gran abrazo por atrás...";
 export const WELCOME_TEXT = ""; // Content removed
-export const FOOTER_TEXT = "© 2024 La Bandita. Todos los derechos reservados.";
+export const FOOTER_TEXT = "© 2025 Patas Negras. Todos los derechos reservados.";
 
 // --- SERVICES DATA ---
 export const SERVICES_DATA: Record<ServiceId, ServiceDetails> = {
   saludos: {
     title: "SALUDOS PERSONALIZADOS",
     subtitle: "VIDEO DEDICADO",
-    description: `¡Saluditos! 👋✨
+    description: `Hola Weones
 
-Los saludos que subimos al feed son generales: los creamos pensando en que puedan enviarse a la mayor cantidad de personas posible, y así los seguiremos publicando siempre.
+Los saludos que subo al perfil se me ocurren a mi (me salen de la raja), y algunos que logro escoger de todos los que me piden y los seguiré haciendo pariente.
 
-Esta opción es ideal si quieres algo rápido y para todos. Si prefieres algo diferente o totalmente personalizado, también lo hacemos —siempre con el toque único de La Bandita. 💌🎉
+Esta opción es por si quieres Webiar o Molestar a alguien, Felicitarlo o simplemente saludar de manera personalizada con lo que tu quieras y el toque del Gran Patas Negras (Un Caballero).
 
-¿Te gustaría uno personalizado para alguien en especial? 🎁😊`,
+¿Webiamos o Felicitamos a Alguien hijo de la Diuca?`,
     buttons: [
-      { text: "Saludo: 8s - $2.290", url: "https://mpago.la/1q16svx" },
-      { text: "Saludo: 16segundos - $3.290", url: "https://mpago.la/2g2F9AV" }
+      { text: "Saludo: 8s - $2.390", url: "https://mpago.la/1q16svx" },
+      { text: "Saludo: 16segundos - $3.390", url: "https://mpago.la/2g2F9AV" }
     ],
-    bottomText: "ENVIAME EL MENSAJE Y COMPROBANTE AL DM :)"
+    bottomText: "ME MANDAS EL MENSAJE A MI DM Y EL COMPROBANTE MI AMOR..."
   },
   colabs: {
     title: "COLABS / NEGOCIOS",
@@ -45,9 +45,9 @@ Esta opción es ideal si quieres algo rápido y para todos. Si prefieres algo di
     description: `¿Tienes un negocio, empresa o emprendimiento y te gustaría crear algo diferente, dinámico y entretenido? 🚀
 Ofrezco servicios de:
 • Creación de contenido 
-• Embajadora de marca a largo plazo 
+• Embajador de marca a largo plazo 
 • Promoción de productos y marcas en historias y posts 
-Cuéntame tu idea y creemos algo increíble juntos. ¡Hagamos que tu marca destaque! 🌟
+Cuéntame tu idea y creemos algo entretnido juntos. ¡Hagamos que tu marca destaque! 
 Contáctanos por DM o E-Mail.`,
     buttons: [
       { text: "Conversemos aquí", url: "https://mail.google.com/" }
@@ -56,11 +56,9 @@ Contáctanos por DM o E-Mail.`,
   productos: {
     title: "MIS PRODUCTOS",
     subtitle: "TIENDA OFICIAL",
-    description: `🧦🔥 ¡Llegaron los calcetines oficiales de La Bandita!
-Diseño exclusivo + SALUDO ESPECIAL personalizado 👀
-No son solo calcetines… son tu entrada a la bandita.
+    description: `🧦🔥 ¡AÚN NADA WEÓN, un beso donde no te da la luz por mientras....
 🚚 Envíos a todo Chile
-📦 Edición limitada. ¿Te unes con estilo? 😎`,
+📦 Edición limitada. 😎`,
     // Aquí están los 3 cuadros para imagenes.
     gallery: [
       "https://i.postimg.cc/RZW9gMFk/Imagen-de-Whats-App-2025-11-20-a-las-15-24-49-34b8c736.jpg", // La imagen que enviaste
